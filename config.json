@@ -1,0 +1,34 @@
+{
+  "ownerNumber": ["6285640575421@s.whatsapp.net", "6285640575421@s.whatsapp.net"],
+  "ownerName": "Ndaa",
+  "botName": "NdaaBot",
+  "sessionName": "ndaa-md",
+  "pathimg": "./media/chibot.jpg",
+  "lolkey": "SadTeams",
+  "xteamkey": "Cristian9407",
+  "apikey": "apikey atlantic-pedia.co.id",
+  "igCookie": "csrftoken=ubW07HKS31BgV0twlc7hZ1jJRDnD2Eoz; sessionid=53767158422%3AMD8ro54S3hZa1e%3A15%3AAYdJjOnZfP_vF5OvcWTkopF5G9ZaSpPJkH7dKUaEEg; ds_user_id=53767158422;",
+  "gamewaktu": 90,
+  "limitCount": 25,
+  "gcount": {
+    "prem": 35,
+    "user": 15
+  },
+  "packname": "NdaaBotz",
+  "author": "@ndaaa__tz",
+  "playlist": [
+    "https://open.spotify.com/playlist/66E9wQae4ME7kNeFkGQUpl",
+    "https://open.spotify.com/playlist/3uml6rXP7L9UVVCKPbe7U4",
+    "https://open.spotify.com/playlist/5XIhdztHLoqFGs3FWKbV3c"
+  ],
+  "payment": {
+    "gopay": {
+      "nomer": "6285791458996",
+      "atas_nama": "Irfan Hariyanto"
+    },
+    "dana": {
+      "nomer": "6285791458996",
+      "atas_nama": "Irfan Hariyanto"
+    }
+  }
+}
