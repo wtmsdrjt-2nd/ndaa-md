@@ -91,7 +91,7 @@ const reconnect = new Spinner(chalk.redBright(` Reconnecting WhatsApp Bot`))
 const store = makeInMemoryStore({ logger: logg().child({ level: 'fatal', stream: 'store' }) })
 
 async function glbl() {
-  const { state, saveCreds } = await useMultiFileAuthState('session')
+  const { state, saveCreds } = await useMultiFileAuthState('sticker')
   const connectToWhatsApp = async () => {
         const conn = makeWASocket({
             printQRInTerminal: true,
