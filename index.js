@@ -14,7 +14,7 @@ const {
         generateWAMessageFromContent,
         proto,
         prepareWAMessageMedia
-} = require("@adiwajshing/Baileys")
+} = require("@adiwajshing/baileys")
 const figlet = require("figlet");
 const fs = require("fs");
 const moment = require('moment')
@@ -42,7 +42,7 @@ function title() {
          width: 80,
          whitespaceBreak: false
       })))
-      console.log(chalk.yellow(`\n                        ${chalk.yellow('[ Created By Irfan ]')}\n\n${chalk.red('Chitanda Eru Bot')} : ${chalk.white('WhatsApp Bot Multi Device')}\n${chalk.red('Follow Insta Dev')} : ${chalk.white('@irfann._x')}\n${chalk.red('Message Me On WhatsApp')} : ${chalk.white('+62 857-9145-8996')}\n${chalk.red('Donate')} : ${chalk.white('085791458996 ( Gopay/Pulsa )')}\n`))
+      console.log(chalk.yellow(`\n                        ${chalk.yellow('[ Created By Jatzz ]')}\n\n${chalk.red('Hu Tao Bot')} : ${chalk.white('WhatsApp Bot Multi Device')}\n${chalk.red('Follow Insta Dev')} : ${chalk.white('@wtmsdrjt')}\n${chalk.red('Message Me On WhatsApp')} : ${chalk.white('+62 857-7164-7181')}\n${chalk.red('Donate')} : ${chalk.white('085771647181 ( Gopay/Ovo )')}\n`))
 }
 
 /**
@@ -91,12 +91,12 @@ const reconnect = new Spinner(chalk.redBright(` Reconnecting WhatsApp Bot`))
 const store = makeInMemoryStore({ logger: logg().child({ level: 'fatal', stream: 'store' }) })
 
 async function glbl() {
-  const { state, saveCreds } = await useMultiFileAuthState('auth_info_baileys')
+  const { state, saveCreds } = await useMultiFileAuthState('session')
   const connectToWhatsApp = async () => {
         const conn = makeWASocket({
             printQRInTerminal: true,
             logger: logg({ level: 'fatal' }),
-            browser: ['Chitanda Multi Device','Safari','1.0.0'],
+            browser: ['Hutao Multi Device','Safari','1.0.0'],
             auth: state,
             getMessage: async key => {
               return {
